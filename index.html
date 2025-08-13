@@ -879,19 +879,12 @@
                     <div class="mt-4">
                         <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. SNMPv3</p>
                         <div class="explanation-section">
-                            <p><strong>Why this is correct:</strong> Site-to-site VPNs use existing internet connections with encryption, making them cost-effective compared to dedicated lines.</p>
+                            <p><strong>Why this is correct:</strong> SNMPv3 — Provides authentication and encryption (confidentiality), making it the most secure SNMP version.</p>
                             <p class="mt-2"><strong>Why others are incorrect:</strong></p>
                             <ul class="list-disc list-inside ml-4">
-                                <li><strong>B:</strong> GRE tunnels lack built-in encryption</li>
-                                <li><strong>C:</strong> VXLAN is for extending Layer 2 networks, not site connectivity</li>
-                                <li><strong>D:</strong> Dedicated lines are very expensive with ongoing costs</li>
-                            </ul>
-                        </div>:</strong> IP helper (DHCP relay) is needed to forward DHCP requests from the new VLAN to the DHCP server on a different subnet.</p>
-                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
-                            <ul class="list-disc list-inside ml-4">
-                                <li><strong>A:</strong> Scope size affects capacity, not VLAN connectivity</li>
-                                <li><strong>B:</strong> Reservations are for specific device assignments</li>
-                                <li><strong>C:</strong> Lease time doesn't affect initial IP assignment</li>
+                                <li><strong>B:</strong> SNMP community string — Used in SNMPv1/v2c for authentication only (and it's clear text, not encrypted).</li>
+                                <li><strong>C:</strong> SNMP ACL access group — Controls which IPs can query the SNMP agent but does not provide encryption.</li>
+                                <li><strong>D:</strong> SNMPv2c — Offers only community string–based authentication (no encryption).</li>
                             </ul>
                         </div>
                     </div>
