@@ -1486,7 +1486,34 @@
                 </details>
             </div>
 
-            <!-- Questions 51 continue with same pattern -->
+            <!-- Question 51 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 51</h4>
+                <p class="mb-4">A network administrator installed a new VLAN to the network after a company added an additional floor to the office. Users are unable to obtain an IP address on the new VLAN, but ports on existing VLANs are working properly. Which of the following configurations should the administrator update?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Scope size</p>
+                    <p>B. Address reservations</p>
+                    <p>C. Lease time</p>
+                    <p>D. IP helper</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. IP helper</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> The IP helper address configuration needs to be updated to include the new VLAN, as it's responsible for forwarding DHCP requests from clients to the DHCP server across different VLANs.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> Scope size relates to DHCP pool capacity but doesn't affect VLAN-specific addressing</li>
+                                <li><strong>B:</strong> Address reservations are client-specific and wouldn't prevent all users on a VLAN from getting addresses</li>
+                                <li><strong>C:</strong> Lease time affects how long addresses are reserved but doesn't prevent initial assignment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
             <!-- Question 52 -->
             <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
                 <h4 class="text-lg font-semibold mb-4">Question 52</h4>
